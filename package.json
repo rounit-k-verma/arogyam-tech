@@ -1,5 +1,5 @@
 {
-  "name": "arogyam-tech",
+  "name": "https://rounit-k-verma.github.io/arogyam-tech",
   "private": true,
   "version": "1.0.0",
   "description": "AROGYAM TECH - Innovating Medical Technology for a Safer Tomorrow. Pre-incubated at IIT Patna.",
@@ -9,7 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
