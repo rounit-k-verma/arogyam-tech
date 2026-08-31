@@ -1,0 +1,6 @@
+{
+  "name": "AROGYAM TECH",
+  "description": "Innovating medical technology for a safer tomorrow. Precision instruments including smart IV drip monitoring and Cardiocare mobile ECG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
