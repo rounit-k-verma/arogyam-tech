@@ -184,6 +184,20 @@ export const TeamScreen: React.FC<TeamScreenProps> = ({ onOpenContact }) => {
                   {member.credentials}
                 </div>
               )}
+
+              {/* LinkedIn Button */}
+              {member.linkedin && (
+                <a
+                  href={member.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded bg-[#0a66c2] text-white text-[11px] font-bold uppercase tracking-wider hover:bg-[#004182] transition-colors shadow-sm"
+                  aria-label={`${member.name} on LinkedIn`}
+                >
+                  <Linkedin className="w-3.5 h-3.5" />
+                  LinkedIn
+                </a>
+              )}
             </div>
           ))}
         </div>
@@ -264,11 +278,11 @@ export const TeamScreen: React.FC<TeamScreenProps> = ({ onOpenContact }) => {
               {/* Social Channels */}
               <div className="flex items-center gap-3 pt-2">
                 <a
-                  href="https://linkedin.com"
+                  href={COMPANY_INFO.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-300 hover:text-white hover:bg-[#0d9488] transition-all"
-                  aria-label="LinkedIn"
+                  className="w-10 h-10 rounded bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-300 hover:text-white hover:bg-[#0a66c2] transition-all"
+                  aria-label="Arogyam Technologies on LinkedIn"
                 >
                   <Linkedin className="w-4 h-4" />
                 </a>

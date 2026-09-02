@@ -6,7 +6,7 @@
 import React from 'react';
 import { ScreenType, ModalType } from '../../types';
 import { BRAND_ASSETS, COMPANY_INFO } from '../../data/content';
-import { Shield, Award, FileText, CheckCircle2, MapPin, Phone, Mail } from 'lucide-react';
+import { Shield, Award, FileText, CheckCircle2, MapPin, Phone, Mail, Linkedin } from 'lucide-react';
 
 export interface FooterProps {
   onNavigate: (screen: ScreenType) => void;
@@ -148,15 +148,37 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenModal }) => {
                   {COMPANY_INFO.email}
                 </a>
               </div>
+              <div className="flex items-center gap-2.5">
+                <Linkedin className="w-4 h-4 text-[#0d9488] shrink-0" />
+                <a
+                  href={COMPANY_INFO.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#0a66c2] transition-colors text-slate-300 font-medium"
+                >
+                  LinkedIn Company Page
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
-          <div className="flex items-center gap-2">
-            <CheckCircle2 className="w-4 h-4 text-[#0d9488]" />
-            <span>Clinical validation in accordance with Indian Medical Device Rules (MDR).</span>
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
+              <CheckCircle2 className="w-4 h-4 text-[#0d9488]" />
+              <span>Clinical validation in accordance with Indian Medical Device Rules (MDR).</span>
+            </div>
+            <a
+              href={COMPANY_INFO.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-7 h-7 rounded bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:bg-[#0a66c2] hover:border-[#0a66c2] transition-all"
+              aria-label="Arogyam Technologies on LinkedIn"
+            >
+              <Linkedin className="w-3.5 h-3.5" />
+            </a>
           </div>
 
           <div className="flex flex-wrap justify-center gap-6">

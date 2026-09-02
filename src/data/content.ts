@@ -9,12 +9,12 @@ export const COMPANY_INFO: CompanyInfo = {
   name: 'AROGYAM TECHNOLOGIES',
   brandName: 'AROGYAM TECHNOLOGIES',
   email: 'arogyamtechpvt@gmail.com',
-  linkedin: 'www.linkedin.com/company/arogyam-technologies-india',
-  phone1: '+91 8002338841',
+  linkedin: 'https://www.linkedin.com/company/arogyam-tech/',
+  phone1: '+91 8002338884',
   phone2: '+91 9110119383',
   phoneDisplay: '+91 8002338884 | +91 9110119383',
   phones: [
-    { label: 'Primary', number: '+91 8002338841', raw: '+918002338841' },
+    { label: 'Primary', number: '+91 8002338884', raw: '+918002338884' },
     { label: 'Support / Ops', number: '+91 9110119383', raw: '+919110119383' },
   ],
   address: 'Muzaffarpur, Bihar, India 843108',
@@ -60,7 +60,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAcySd5ONNCHUTN32Cy5-xMJiNfu03r7NRWBSgVZ-ntzDrAyk9l_PDWX8MRaZKCS_NveG-5I3ylIQTCMqIh8WMXuYfPn0MPT7Yp_IC9mKRgNy0WCO62PNMxT7LTpwVbAOByI4X755VObhGCEOHEFtC_gWyMKJX-gCxRFZ3bIza9TckuOMtyQB2_Fmkddi-VHZ1z5lmi6DCkOi8_Kzv1J_qxbdlSsvLj2ROpwkQ0fYlr7-QfIjdvM-jyWsHn2c2B2R2LI70',
     altText: 'Professional headshot of Rounit Kumar Verma, Founder and Lead Engineer at Arogyam Tech.',
     credentials: 'Lead Biomedical Hardware & IoT Architect',
-    linkedin: 'www.linkedin.com/in/rounitkumarverma'
+    linkedin: 'https://www.linkedin.com/in/rounitkumarverma'
   },
   {
     name: 'Vivek Kumar',
