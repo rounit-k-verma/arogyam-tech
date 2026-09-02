@@ -9,9 +9,10 @@ export const COMPANY_INFO: CompanyInfo = {
   name: 'AROGYAM TECHNOLOGIES',
   brandName: 'AROGYAM TECHNOLOGIES',
   email: 'arogyamtechpvt@gmail.com',
+  linkedin: 'www.linkedin.com/company/arogyam-technologies-india',
   phone1: '+91 8002338841',
   phone2: '+91 9110119383',
-  phoneDisplay: '+91 8002338841 | +91 9110119383',
+  phoneDisplay: '+91 8002338884 | +91 9110119383',
   phones: [
     { label: 'Primary', number: '+91 8002338841', raw: '+918002338841' },
     { label: 'Support / Ops', number: '+91 9110119383', raw: '+919110119383' },
@@ -59,7 +60,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAcySd5ONNCHUTN32Cy5-xMJiNfu03r7NRWBSgVZ-ntzDrAyk9l_PDWX8MRaZKCS_NveG-5I3ylIQTCMqIh8WMXuYfPn0MPT7Yp_IC9mKRgNy0WCO62PNMxT7LTpwVbAOByI4X755VObhGCEOHEFtC_gWyMKJX-gCxRFZ3bIza9TckuOMtyQB2_Fmkddi-VHZ1z5lmi6DCkOi8_Kzv1J_qxbdlSsvLj2ROpwkQ0fYlr7-QfIjdvM-jyWsHn2c2B2R2LI70',
     altText: 'Professional headshot of Rounit Kumar Verma, Founder and Lead Engineer at Arogyam Tech.',
     credentials: 'Lead Biomedical Hardware & IoT Architect',
-    linkedin: '#'
+    linkedin: 'www.linkedin.com/in/rounitkumarverma'
   },
   {
     name: 'Vivek Kumar',
@@ -68,7 +69,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA9zmblGV5VUi_mSH1kIPx1MnjWrHS2eRUuFxfSLaZWZ-b6zYH4wZ7K6Y60fEGX52Bgq5XyjNaI_NAtPPsy-WrVnSEoXstHMKUtlqFWM9mPgfWpueWc7JX25saW87GlZfbSWgPyVqTlP1ZpmRJZx1gUhCwM4oLfi6IAXsI8Q9s_REtWg3-x36gk_MFTIhurcjDKLAqNF2e3Qr6aw4IS6Tmy6Vo8UwwsgqXdPBaV2y5VfOFJXQn8Ii1SexkHueio_wnqfhQ',
     altText: 'Professional headshot of Vivek Kumar, Co-Founder and Product Strategy Lead.',
     credentials: 'IIT Patna Pre-Incubation Fellow',
-    linkedin: '#'
+    linkedin: 'https://www.linkedin.com/in/vivek-kumar-00394b383'
   },
   {
     name: 'Shubhichha Srivastava',
@@ -77,7 +78,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD9mGJinNs3fGU5jq5kmMfoYSZm8QYWYqsTmWSNk0B3kX0azUMoNQFjF3NL7WG2DUOKEKK61JD9KHcuvQPkLruqVuAG8G-e1nG2SsqYt4dTEIbV_5eFABMabX4Ws_M-TxepvPe5Ixq_4uwg1c12hHsob6HJt-6mIUKgvOtXF9uBjqZpt0AXdp1-5MvFs3dN-lg5SYXHG6ojmMBFVQ5fzPXKkf8HwiWzQ4mikbuiM1niMRQmCHnQbMYSkpeot1NIsMcwV9w',
     altText: 'Professional headshot of Shubhichha Srivastava, Head of Medical Operations.',
     credentials: 'Clinical Trial Specialist & Regulatory Compliance',
-    linkedin: '#'
+    linkedin: 'https://www.linkedin.com/in/shubhichha-srivastava-7a15543a0/'
   }
 ];
 

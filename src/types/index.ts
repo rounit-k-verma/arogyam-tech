@@ -94,6 +94,7 @@ export interface CompanyInfo {
   name: string;
   brandName: string;
   email: string;
+  linkedin: string;
   phone1: string;
   phone2: string;
   phoneDisplay: string;
